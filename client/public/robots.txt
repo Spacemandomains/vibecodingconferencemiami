@@ -1,0 +1,9 @@
+
+User-agent: *
+Allow: /
+Disallow: /checkout
+Disallow: /merchandise-checkout
+Disallow: /sponsor-payment
+
+# Sitemap location
+Sitemap: https://vibecodingmiami.xyz/sitemap.xml

@@ -1,0 +1,210 @@
+/* Merchandise section CSS */
+.merchandise-section {
+  padding: 5rem 0;
+  background-color: #f8fafc;
+}
+
+.merchandise-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.merchandise-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.merchandise-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+.merchandise-subtitle {
+  font-size: 1rem;
+  color: #64748b;
+  max-width: 36rem;
+  margin: 0 auto 2.5rem auto;
+}
+
+/* Tabs */
+.merchandise-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  max-width: 32rem;
+  margin: 0 auto 2.5rem auto;
+}
+
+.merchandise-tab {
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #e2e8f0;
+  background-color: white;
+  transition: all 0.2s ease;
+}
+
+.merchandise-tab.active {
+  background-color: #0284c7;
+  color: white;
+  border-color: #0284c7;
+}
+
+.merchandise-tab:hover:not(.active) {
+  background-color: #f1f5f9;
+}
+
+/* Grid */
+.merchandise-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .merchandise-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .merchandise-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Card */
+.merchandise-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.merchandise-image {
+  height: 12rem;
+  background-color: #f8fafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.merchandise-image img {
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.no-image {
+  color: #94a3b8;
+}
+
+.merchandise-header {
+  padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+}
+
+.merchandise-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.merchandise-description {
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+.merchandise-content {
+  padding: 0.5rem 1.5rem;
+  flex-grow: 1;
+}
+
+.merchandise-price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.merchandise-price {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.merchandise-footer {
+  padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.merchandise-button {
+  display: inline-block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  background-color: #0284c7;
+  color: white;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+  text-decoration: none;
+}
+
+.merchandise-button:hover {
+  background-color: #0369a1;
+}
+
+/* Loading spinner */
+.merchandise-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16rem;
+}
+
+.spinner {
+  width: 2rem;
+  height: 2rem;
+  border: 0.25rem solid #e2e8f0;
+  border-top-color: #0284c7;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Error message */
+.merchandise-error {
+  text-align: center;
+  color: #ef4444;
+  padding: 2rem 0;
+  display: none;
+}
+
+/* BumpSale custom style overrides */
+.bumpsale_button {
+  display: inline-block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  background-color: #0284c7;
+  color: white;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+  text-decoration: none;
+}
+
+.bumpsale_button:hover {
+  background-color: #0369a1;
+}

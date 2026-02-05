@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Purchase Merchandise - Vibe Coding Conference</title>
+  <link rel="stylesheet" href="/merchandise/purchase.css">
+  <!-- Import Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Import BumpSale Script -->
+  <script src="https://widgets.bumpsale.co/button.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="/" class="logo">
+          <h1>Vibe Coding Conference</h1>
+        </a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="/#about">About</a></li>
+            <li><a href="/#venue">Venue</a></li>
+            <li><a href="/#tickets">Tickets</a></li>
+            <li><a href="/#merchandise">Merchandise</a></li>
+            <li><a href="/sponsorship">Sponsorship</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero-title">Conference Merchandise</h1>
+        <p class="hero-subtitle">Exclusive merchandise for the Vibe Coding Conference 2026</p>
+      </div>
+    </section>
+
+    <section class="product-details">
+      <div class="container">
+        <div class="product-grid">
+          <div class="product-image">
+            <!-- Product images -->
+            <div id="tshirt-image" class="merchandise-image">
+              <img src="/images/tshirt.png" alt="Vibe Conference T-Shirt" class="product-img" />
+            </div>
+            <div id="cap-image" class="merchandise-image">
+              <img src="/images/cap.png" alt="Vibe Conference Cap" class="product-img" />
+            </div>
+            <div id="other-image" class="image-placeholder">
+              <span>Merchandise Image Coming Soon</span>
+            </div>
+          </div>
+          <div class="product-info">
+            <h2 id="product-title">Loading product...</h2>
+            <p id="product-description">Please wait while we load the product details.</p>
+            
+            <div class="product-price">
+              <div id="special-price-container">
+                <p class="special-price">Special Price: <span id="special-price">Loading...</span></p>
+                <p class="price-note">Price adjusts in real-time based on demand</p>
+              </div>
+            </div>
+            
+            <div class="product-actions">
+              <!-- BumpSale buttons will be inserted here -->
+              <div id="bumpsale-tshirt-container">
+                <a href='#' class='bumpsale_button' data-bumpsale='EG5EMPuUgA8BukrLREGtmMys' data-bumpsale-text='Buy Now at _PRICE_' target="_blank"></a>
+              </div>
+              
+              <div id="bumpsale-cap-container">
+                <a href='#' class='bumpsale_button' data-bumpsale='6njXJhKAYVbnuA2Jm95Rh7Fm' data-bumpsale-text='Buy Now at _PRICE_' target="_blank"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-left">
+          <p>&copy; 2025 Vibe Coding Conference. All rights reserved.</p>
+        </div>
+        <div class="footer-right">
+          <ul class="footer-links">
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms-of-service">Terms of Service</a></li>
+            <li><a href="/code-of-conduct">Code of Conduct</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/merchandise/purchase.js"></script>
+</body>
+</html>

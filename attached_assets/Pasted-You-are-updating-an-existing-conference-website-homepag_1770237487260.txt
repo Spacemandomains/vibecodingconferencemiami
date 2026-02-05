@@ -1,0 +1,70 @@
+You are updating an existing conference website homepage for Vibe Coding Miami. Do NOT rebuild the site from scratch. Keep the current design system, colors, fonts, layout patterns, and any existing sections that already work. Your job is to update the homepage to convert beginners who are discovering “Vibe Coding” for the first time.
+
+TASK 1 — Replace the homepage HERO copy (beginner-first)
+Find the current hero section on the homepage (top of page). Replace the headline/subheadline/benefit text/CTAs with the following exact copy:
+
+Headline:
+“New to Vibe Coding? Learn to Build With AI — From Zero.”
+
+Subheadline:
+“Vibe Coding Miami is a beginner-friendly conference where you’ll learn how to turn ideas into real apps using AI—without needing a computer science background or years of coding experience.”
+
+Reassurance line (small text under subheadline):
+“No experience required. Most attendees are founders, creatives, career-switchers, and first-time builders.”
+
+Bullets (3):
+- “Start from scratch: learn the vibe coding workflow (prompting, structuring, shipping)”
+- “Hands-on guidance: step-by-step sessions + beginner tracks”
+- “Leave with progress: a working project, a repeatable process, and a builder mindset”
+
+Primary CTA button text:
+“Get Your Pass” (scrolls to Tickets/Passes section)
+
+Secondary CTA button text:
+“Is this for me?” (scrolls to a short explainer section)
+
+Micro-trust line below buttons:
+“Beginner track included • Friendly room • No gatekeeping • Miami • May 18–22, 2026”
+
+TASK 2 — Add an “Is this for me?” section directly below the Hero
+Create a section anchored with id="is-this-for-me" that is short and beginner-friendly:
+Title: “Is this for me?”
+3–5 short bullets answering:
+- You are brand new / not technical
+- You have an idea but don’t know where to start
+- You want to learn how to build with AI step-by-step
+- You want a welcoming room, not gatekeeping
+End with a small CTA link/button: “See Tickets” that scrolls to tickets.
+
+TASK 3 — Add/Update “Who It’s For” (beginner personas)
+Add a section (or update the existing one) listing:
+- Absolute beginners
+- Non-technical founders
+- Designers & creators
+- Career switchers
+- Students / curious builders
+Make it feel inclusive, not technical.
+
+TASK 4 — Add/Update FAQ to remove beginner objections
+Add an FAQ section (or update existing) with these questions and short friendly answers:
+1) “Do I need coding experience?”
+2) “What should I bring?”
+3) “Will there be step-by-step sessions?”
+4) “Is this too technical?”
+5) “What will I leave with?”
+
+TASK 5 — Tickets section anchor + flow
+Ensure the Tickets/Passes section has an anchor id="tickets".
+Make the “Get Your Pass” hero CTA scroll to #tickets.
+If tickets are sold via an external link, keep it—just ensure the button is clear and prominent.
+
+RULES
+- Preserve existing styling and components whenever possible.
+- Only add new components/sections when needed.
+- Keep everything responsive (mobile-first).
+- Do not remove existing critical content unless it conflicts with the beginner positioning.
+- After changes, run the app and fix any build/lint errors.
+
+OUTPUT
+- Provide a summary of files changed and what you updated.
+- Confirm the hero CTA buttons scroll correctly to #tickets and #is-this-for-me.

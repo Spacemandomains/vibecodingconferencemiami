@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cap main body -->
+  <path d="M40 100C40 70 65 50 100 50C135 50 160 70 160 100L150 110H50L40 100Z" fill="#5b21b6" stroke="#231942" stroke-width="3"/>
+  
+  <!-- Cap visor -->
+  <path d="M40 100C40 100 45 115 50 110H150C155 115 160 100 160 100H40Z" fill="#3d146e" stroke="#231942" stroke-width="3"/>
+  
+  <!-- VIBE Logo text -->
+  <text x="100" y="80" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">VIBE</text>
+  <text x="100" y="95" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">CODE</text>
+  
+  <!-- Cap button on top -->
+  <circle cx="100" cy="60" r="5" fill="#3d146e" stroke="#231942" stroke-width="1"/>
+</svg>

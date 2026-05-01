@@ -21,7 +21,7 @@ export const Hero = () => {
               <br />Learn to Build With AI — From Zero.
             </h1>
             <p className="text-lg md:text-xl mb-4 text-gray-200">
-              Vibe Coding Miami is a beginner-friendly conference where you'll learn how to turn ideas into real apps using AI—without needing a computer science background or years of coding experience.
+              Vibe Coding Conference is a beginner-friendly conference where you'll learn how to turn ideas into real apps using AI—without needing a computer science background or years of coding experience.
             </p>
             <p className="text-sm text-gray-400 mb-6">
               No experience required. Most attendees are founders, creatives, career-switchers, and first-time builders.
@@ -59,7 +59,7 @@ export const Hero = () => {
             </div>
             
             <p className="text-xs text-gray-400 mb-6">
-              Beginner track included • Friendly room • No gatekeeping • Miami • May 18–22, 2026
+              Beginner track included • Friendly room • No gatekeeping • Houston, TX • May 18–22, 2026
             </p>
 
             <div className="flex items-center gap-2">

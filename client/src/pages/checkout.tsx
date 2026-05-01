@@ -233,7 +233,7 @@ export default function Checkout() {
                 <CardContent className="pt-6 pb-4">
                   <div className="space-y-4 text-center">
                     <p>Your ticket purchase has been confirmed. We've sent a receipt and ticket details to your email address.</p>
-                    <p className="font-medium">See you in Miami Beach on May 18-22, 2026!</p>
+                    <p className="font-medium">See you in Houston, TX on May 18-22, 2026!</p>
                     
                     <div className="pt-4">
                       <Button 

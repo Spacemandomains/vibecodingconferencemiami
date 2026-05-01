@@ -10,7 +10,7 @@ export const FAQSection = () => {
   const faqs = [
     {
       question: "Do I need coding experience?",
-      answer: "Not at all! Vibe Coding Miami is designed for complete beginners. Most of our attendees have never written a line of code before. Our beginner track will guide you from zero to building your first app with AI assistance."
+      answer: "Not at all! Vibe Coding Conference is designed for complete beginners. Most of our attendees have never written a line of code before. Our beginner track will guide you from zero to building your first app with AI assistance."
     },
     {
       question: "What should I bring?",
@@ -22,7 +22,7 @@ export const FAQSection = () => {
     },
     {
       question: "Is this too technical?",
-      answer: "No way! We've specifically designed Vibe Coding Miami to be approachable for non-technical folks. We avoid jargon, explain everything in plain language, and focus on practical building over theory."
+      answer: "No way! We've specifically designed Vibe Coding Conference to be approachable for non-technical folks. We avoid jargon, explain everything in plain language, and focus on practical building over theory."
     },
     {
       question: "What will I leave with?",

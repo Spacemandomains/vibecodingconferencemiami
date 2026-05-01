@@ -52,7 +52,7 @@ export const OrganizerSection = () => {
                 Through building in public across SaaS, e-commerce, and creator platforms, Wilfred began using AI as a practical tool to move faster, experiment freely, and turn ideas into working products without gatekeeping. That approach evolved into what he calls vibe coding: building software by focusing on intent, clarity, and iteration rather than credentials or complexity.
               </p>
               <p>
-                Wilfred created Vibe Coding Miami to give newcomers a clear, welcoming entry point into building with AI—before the space becomes crowded, rigid, and closed off.
+                Wilfred created Vibe Coding Conference to give newcomers a clear, welcoming entry point into building with AI—before the space becomes crowded, rigid, and closed off.
               </p>
               <p className="text-primary font-bold text-lg pt-2">
                 Code. Learn. Build. Repeat.
@@ -74,7 +74,7 @@ export const OrganizerSection = () => {
             </div>
             <h3 className="font-heading font-bold text-2xl mb-4">We're Looking for 20 Volunteers!</h3>
             <p className="text-gray-300 mb-6">
-              Want to be part of something special? We're looking for 20 passionate volunteers to help make Vibe Coding Miami 2026 an unforgettable experience. Help with registration, guide attendees, assist speakers, and be at the heart of the action.
+              Want to be part of something special? We're looking for 20 passionate volunteers to help make Vibe Coding Conference 2026 an unforgettable experience. Help with registration, guide attendees, assist speakers, and be at the heart of the action.
             </p>
             <Link href="/volunteer">
               <Button 

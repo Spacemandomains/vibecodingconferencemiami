@@ -144,7 +144,7 @@ export default function MerchandiseConfirmation() {
             Thank you for your purchase! We've sent a confirmation email with your order details.
           </p>
           <p>
-            Your merchandise will be available for pickup at the conference in South Beach, Miami (May 18-22, 2026).
+            Your merchandise will be available for pickup at the conference in Houston, TX (May 18-22, 2026).
             Don't forget to bring your confirmation email or ID.
           </p>
         </CardContent>

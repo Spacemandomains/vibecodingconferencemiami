@@ -13,10 +13,10 @@ export default function Sitemap() {
             <h1 className="font-heading font-bold text-4xl mb-4">Vibe Coding Conference 2026 | Complete Sitemap</h1>
             <div className="w-24 h-1 bg-primary mb-6"></div>
             <p className="text-gray-600">
-              Navigate through the Vibe Coding Conference website - South Beach Miami's premier tech and coding event of 2026. This sitemap helps you discover all our content, from registration to merchandise.
+              Navigate through the Vibe Coding Conference website - Houston, TX's premier tech and coding event of 2026. This sitemap helps you discover all our content, from registration to merchandise.
             </p>
             <p className="text-gray-600 mt-2">
-              This comprehensive guide to the Replit-powered Vibe Coding Conference connects you with all sections of our Miami tech event website.
+              This comprehensive guide to the Replit-powered Vibe Coding Conference connects you with all sections of our Houston tech event website.
             </p>
             <p className="text-gray-600 mt-2">
               You are currently viewing our HTML sitemap at <a href="https://vibecodingmiami.xyz/sitemap" className="text-primary hover:underline">https://vibecodingmiami.xyz/sitemap</a>

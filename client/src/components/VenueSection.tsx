@@ -14,10 +14,10 @@ export const VenueSection = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="font-heading font-bold text-4xl mb-4">Stunning South Beach Venue</h2>
+          <h2 className="font-heading font-bold text-4xl mb-4">Houston, TX Venue</h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-gray-600">
-            Experience the perfect blend of tech and beach at our prime Miami location.
+            Join us in the heart of Jersey Village, Houston for five days of coding, learning, and connection.
           </p>
         </motion.div>
         
@@ -29,9 +29,9 @@ export const VenueSection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <h3 className="font-heading font-bold text-3xl mb-4">Venue To Be Announced</h3>
+            <h3 className="font-heading font-bold text-3xl mb-4">Jersey Village, Houston, TX</h3>
             <p className="text-gray-600 mb-6">
-              We're finalizing an amazing venue in the heart of South Beach, Miami. Stay tuned for the official announcement!
+              9934 Jones Rd Suite 14, Houston, TX — come build, learn, and connect with fellow builders in the energy capital of the world.
             </p>
             
             <motion.div 
@@ -45,10 +45,10 @@ export const VenueSection = () => {
               </h4>
               <ul className="space-y-2 text-gray-600">
                 {[
-                  "Walking distance to South Beach",
+                  "Easy access from Beltway 8 and Hwy 290",
                   "Dozens of restaurants and hotels nearby",
-                  "30 minutes from Miami International Airport",
-                  "Perfect May weather: 75-85°F (24-29°C)"
+                  "30 minutes from George Bush Intercontinental Airport",
+                  "Great May weather: 75-85°F (24-29°C)"
                 ].map((item, index) => (
                   <li key={index} className="flex items-start">
                     <Check className="h-5 w-5 mr-2 text-[#4AE290]" />
@@ -67,9 +67,9 @@ export const VenueSection = () => {
             transition={{ duration: 0.5 }}
           >
             <img 
-              src="https://images.unsplash.com/photo-1533106497176-45ae19e68ba2" 
-              alt="Miami Beach" 
-              className="rounded-lg shadow-xl" 
+              src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_800,q_85,w_1200/v1/clients/houston/Avenida_Houston_night_13509974-f410-42c8-9fbc-46c14e3e177f.jpg" 
+              alt="Avenida Houston at Night" 
+              className="rounded-lg shadow-xl w-full object-cover" 
             />
           </motion.div>
         </div>

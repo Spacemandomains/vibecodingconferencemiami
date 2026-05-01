@@ -168,7 +168,7 @@ export default function PricingDetails() {
                 All tickets include access to conference sessions as specified in the ticket description.
               </li>
               <li>
-                VIP Passes include exclusive access to the VIP lounge, speaker dinner, and Miami yacht party.
+                VIP Passes include exclusive access to the VIP lounge, speaker dinner, and Houston VIP dinner cruise.
               </li>
               <li>
                 Founding Builder Pass and Developer Pass include the standard conference swag box.

@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "buildCommand": "vite build --config vite.config.production.ts",
+  "buildCommand": "vite build --config vite.config.production.ts && npx esbuild api/index.ts --bundle --platform=node --format=cjs --outfile=api/server.js --packages=external --alias:@shared=./shared",
   "outputDirectory": "dist/public",
   "functions": {
-    "api/index.ts": {
+    "api/server.js": {
       "maxDuration": 30
     }
   },
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/index" },
+    { "source": "/api/(.*)", "destination": "/api/server" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

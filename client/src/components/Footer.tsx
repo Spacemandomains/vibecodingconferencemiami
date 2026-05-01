@@ -32,7 +32,7 @@ export const Footer = () => {
               </span>
             </div>
             <p className="text-gray-400 mb-4">
-              The most vibrant coding conference of 2026, bringing together developers, designers, and tech leaders in South Beach Miami.
+              The most vibrant coding conference of 2026, bringing together developers, designers, and tech leaders in Houston, TX.
             </p>
             <div className="flex space-x-4">
               <FooterLink href="https://x.com/FounderWilfred">

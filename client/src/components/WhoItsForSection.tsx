@@ -70,7 +70,7 @@ export const WhoItsForSection = () => {
           <h2 className="font-heading font-bold text-4xl mb-4">Who It's For</h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-gray-600">
-            Vibe Coding Miami welcomes everyone—no matter your background or experience level.
+            Vibe Coding Conference welcomes everyone—no matter your background or experience level.
           </p>
         </motion.div>
         

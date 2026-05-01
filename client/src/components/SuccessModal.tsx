@@ -84,7 +84,7 @@ const SuccessModal = ({ isOpen, onClose }: SuccessModalProps) => {
                   size="sm"
                   className="w-full"
                   title="I just joined the Vibe Coding Conference 2026 waitlist!"
-                  description="Join me for a chance to win free tickets and hotel stay at the most vibrant tech event of 2026. Five days of coding, connection, and creativity in South Beach Miami."
+                  description="Join me for a chance to win free tickets and hotel stay at the most vibrant tech event of 2026. Five days of coding, connection, and creativity in Houston, TX."
                   hashtags={["VibeCoding2026", "TechConference", "JoinTheWaitlist"]}
                   showLabel={true}
                 />

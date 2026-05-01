@@ -1,17 +1,21 @@
-import { Pool, neonConfig } from '@neondatabase/serverless';
-import { drizzle } from 'drizzle-orm/neon-serverless';
-import ws from "ws";
+import pg from 'pg';
+import { drizzle } from 'drizzle-orm/node-postgres';
 import * as schema from "@shared/schema";
 
-neonConfig.webSocketConstructor = ws;
+const { Pool } = pg;
 
-// Determine environment
 const isProduction = process.env.NODE_ENV === 'production';
 console.log(`Running in ${isProduction ? 'production' : 'development'} mode`);
 
-// Use DATABASE_URL for both production and development
-// This simplifies deployment and configuration
-const databaseUrl = process.env.DATABASE_URL;
+let databaseUrl = process.env.DATABASE_URL;
+
+if (process.env.PGHOST && process.env.PGUSER && process.env.PGDATABASE) {
+  const pgUrl = `postgresql://${process.env.PGUSER}:${process.env.PGPASSWORD || ''}@${process.env.PGHOST}:${process.env.PGPORT || '5432'}/${process.env.PGDATABASE}`;
+  if (!databaseUrl || databaseUrl.includes('neon.tech')) {
+    databaseUrl = pgUrl;
+    console.log('Using constructed DATABASE_URL from PG environment variables');
+  }
+}
 
 if (isProduction) {
   console.log('Using DATABASE_URL for production');
@@ -19,23 +23,22 @@ if (isProduction) {
   console.log('Using DATABASE_URL for development');
 }
 
-// Check for DATABASE_URL environment variable
 if (!databaseUrl) {
   throw new Error(`Missing required environment variable: DATABASE_URL. Please set it in the Secrets tab.`);
 }
 
-// Create pool and db
-let pool: Pool;
+let pool: InstanceType<typeof Pool>;
 let db: ReturnType<typeof drizzle>;
 
 try {
-  // Initialize the connection pool
-  pool = new Pool({ connectionString: databaseUrl });
-  
-  // Initialize Drizzle with the connection pool
+  const poolConfig: ConstructorParameters<typeof Pool>[0] = {
+    connectionString: databaseUrl,
+  };
+  if (isProduction) {
+    poolConfig.ssl = { rejectUnauthorized: false };
+  }
+  pool = new Pool(poolConfig);
   db = drizzle({ client: pool, schema });
-  
-  // Test the connection by doing a simple query
   console.log("Database connection established successfully");
 } catch (error) {
   console.error("Failed to connect to database:", error);

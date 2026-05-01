@@ -34,9 +34,9 @@ interface SocialShareProps {
 }
 
 export const SocialShare: React.FC<SocialShareProps> = ({
-  title = "Vibe Coding Conference 2026 | South Beach Miami",
-  description = "Join the most vibrant tech event of 2026. Five days of coding, connection, and creativity on the stunning shores of South Beach.",
-  hashtags = ["VibeCoding2026", "TechConference", "Miami"],
+  title = "Vibe Coding Conference 2026 | Houston, TX",
+  description = "Join the most vibrant tech event of 2026. Five days of coding, connection, and creativity in Houston, TX.",
+  hashtags = ["VibeCoding2026", "TechConference", "Houston"],
   className = "",
   variant = "outline",
   size = "default",

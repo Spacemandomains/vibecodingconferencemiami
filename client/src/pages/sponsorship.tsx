@@ -25,7 +25,7 @@ export default function SponsorshipPage() {
             <h1 className="text-5xl font-bold mb-6">Sponsorship Opportunities</h1>
             <p className="text-xl max-w-3xl mx-auto">
               Partner with us to connect with the pioneers of AI and LLM development at 
-              South Beach Miami's premier coding conference
+              Houston's premier coding conference
             </p>
           </div>
         </section>
@@ -203,7 +203,7 @@ export default function SponsorshipPage() {
                       <ul className="space-y-2">
                         <li className="flex items-start">
                           <span className="text-primary mr-2">✓</span>
-                          <span>Branded afterparty experience at exclusive Miami venue</span>
+                          <span>Branded afterparty experience at exclusive Houston venue</span>
                         </li>
                         <li className="flex items-start">
                           <span className="text-primary mr-2">✓</span>
@@ -385,7 +385,7 @@ export default function SponsorshipPage() {
                 <h3 className="text-xl font-bold mb-4">Product Showcase</h3>
                 <p>
                   Demonstrate your AI tools and services to an audience of early adopters and influencers
-                  in one of the most vibrant tech scenes in Miami.
+                  in one of the most vibrant tech scenes in Houston.
                 </p>
               </div>
               <div className="p-6 border rounded-lg">

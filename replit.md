@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Vibe Coding Conference is a modern, interactive waitlist and registration platform for a tech conference scheduled for May 18-22, 2026, in South Beach Miami. The platform features a comprehensive registration system for attendees, sponsors, and merchandise purchases, built with React and Express.js. The application focuses on LLM-powered and AI-first SaaS products, providing a full-featured conference management system with payment processing, waitlist management, and sponsor coordination.
+The Vibe Coding Conference is a modern, interactive waitlist and registration platform for a tech conference scheduled for May 18-22, 2026, in Jersey Village, Houston, TX (9934 Jones Rd Suite 14, Houston, TX). The platform features a comprehensive registration system for attendees, sponsors, and merchandise purchases, built with React and Express.js. The application focuses on LLM-powered and AI-first SaaS products, providing a full-featured conference management system with payment processing, waitlist management, and sponsor coordination.
 
 ## User Preferences
 

@@ -81,7 +81,7 @@ export class MemStorage {
       name: "VIP Pass",
       price: 129900, // $1,299.00 in cents
       description: "Premium experience",
-      features: ["All Founding Builder Pass benefits", "VIP lounge access", "Exclusive speaker dinner", "Miami yacht party", "Premium swag box"],
+      features: ["All Founding Builder Pass benefits", "VIP lounge access", "Exclusive speaker dinner", "Houston VIP dinner cruise", "Premium swag box"],
       type: "vip"
     };
     
@@ -445,7 +445,7 @@ async function initializeDatabase() {
         name: "VIP Pass",
         price: 129900, // $1,299.00 in cents
         description: "Premium experience",
-        features: ["All Founding Builder Pass benefits", "VIP lounge access", "Exclusive speaker dinner", "Miami yacht party", "Premium swag box"],
+        features: ["All Founding Builder Pass benefits", "VIP lounge access", "Exclusive speaker dinner", "Houston VIP dinner cruise", "Premium swag box"],
         type: "vip"
       },
       {

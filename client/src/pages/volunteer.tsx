@@ -91,12 +91,12 @@ export default function VolunteerPage() {
                     <CheckCircle className="h-16 w-16 text-green-600" />
                   </div>
                   <CardTitle className="text-2xl text-green-700">Application Submitted!</CardTitle>
-                  <CardDescription>Thank you for your interest in volunteering at Vibe Coding Miami 2026</CardDescription>
+                  <CardDescription>Thank you for your interest in volunteering at Vibe Coding Conference 2026</CardDescription>
                 </CardHeader>
                 <CardContent className="pt-6 pb-4">
                   <div className="space-y-4 text-center">
                     <p>We've received your volunteer application and will review it shortly.</p>
-                    <p className="font-medium">We'll contact you via email with next steps. See you in Miami!</p>
+                    <p className="font-medium">We'll contact you via email with next steps. See you in Houston!</p>
                     
                     <div className="pt-4">
                       <Button 
@@ -117,7 +117,7 @@ export default function VolunteerPage() {
                     <CardTitle className="text-2xl">Volunteer Application</CardTitle>
                   </div>
                   <CardDescription className="text-gray-300">
-                    Join our team of 20 volunteers for Vibe Coding Miami 2026!
+                    Join our team of 20 volunteers for Vibe Coding Conference 2026!
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="pt-6">
@@ -218,7 +218,7 @@ export default function VolunteerPage() {
                             <FormLabel>Why do you want to volunteer?</FormLabel>
                             <FormControl>
                               <Textarea 
-                                placeholder="Tell us why you're excited to be part of Vibe Coding Miami 2026..."
+                                placeholder="Tell us why you're excited to be part of Vibe Coding Conference 2026..."
                                 className="min-h-[100px]"
                                 {...field} 
                               />
